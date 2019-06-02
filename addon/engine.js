@@ -12,8 +12,7 @@ const Eng = Engine.extend({
       'data-store'
     ],
     externalRoutes: [
-      'home',
-      'blog'
+      'home'
     ]
   }
 
