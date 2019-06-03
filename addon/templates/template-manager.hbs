@@ -1,8 +1,10 @@
 <h1>Template Manager</h1>
 <ul>
   {{#each model as |post|}}
-    <li>{{post.title}} - {{post.desc}}</li>
+  <li>{{post.title}} - {{post.desc}}</li>
   {{/each}}
 </ul>
+
+
 {{#link-to-external "home"}}Go home{{/link-to-external}}
 {{outlet}}
