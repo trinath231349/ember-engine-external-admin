@@ -1,1 +1,1 @@
-export { default } from 'external-admin/templates/post';
+export { default } from 'template-manager/templates/post';

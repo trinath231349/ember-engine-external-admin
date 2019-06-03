@@ -1,1 +1,1 @@
-export { default } from 'external-admin/routes/post/edit';
+export { default } from 'template-manager/routes/post/edit';
