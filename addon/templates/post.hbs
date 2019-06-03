@@ -1,2 +1,13 @@
 <h1>Post</h1>
+
+<ul>
+  {{#each model as |post|}}
+  <li>{{post.title}} - {{post.desc}}</li>
+  {{/each}}
+</ul>
+
+
+{{#link-to-external "home"}}Go home{{/link-to-external}}
+
+
 {{outlet}}
